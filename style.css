@@ -9,7 +9,7 @@ body {
     z-index: 1;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 7px;
 }
 
@@ -19,7 +19,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: #330000;
-}
+} */
 
 .logo {
     font-family: "Crimson Text", serif;
@@ -132,6 +132,10 @@ nav p:hover {
                 0 -5px 20px rgba(0, 0, 0, 0.6);
     background-color: #330000;
     z-index: 3;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 70%;
     position: absolute;
     top: 340px;
     left: 50%;
@@ -181,10 +185,20 @@ nav p:hover {
     color: #EEEBDD;
     width: 700px;
     text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 1050px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 .foodCon {
@@ -196,6 +210,10 @@ nav p:hover {
                 0 -5px 20px rgba(0, 0, 0, 0.6);
     background-color: #330000;
     z-index: 3;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 1600px;
     left: 50%;
@@ -258,6 +276,10 @@ nav p:hover {
 .photosCon {
     width: 1300px;
     height: 550px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 2450px;
     left: 50%;
@@ -325,6 +347,10 @@ nav p:hover {
     color: #EEEBDD;
     width: 700px;
     text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 3250px;
     left: 50%;
@@ -340,6 +366,10 @@ nav p:hover {
                 0 -5px 20px rgba(0, 0, 0, 0.6);
     background-color: #330000;
     z-index: 3;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 3750px;
     left: 50%;
@@ -389,6 +419,10 @@ nav p:hover {
     color: #EEEBDD;
     width: 700px;
     text-align: center;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 4500px;
     left: 50%;
@@ -404,6 +438,10 @@ nav p:hover {
                 0 -5px 20px rgba(0, 0, 0, 0.6);
     background-color: #330000;
     z-index: 3;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
     position: absolute;
     top: 5100px;
     left: 50%;
@@ -461,6 +499,10 @@ nav p:hover {
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
     text-decoration: none;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     position: absolute;
     top: 6000px;
     left: 450px;
@@ -489,6 +531,10 @@ nav p:hover {
     font-size: 50px;
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
     position: absolute;
     top: 5960px;
     right: 550px;
@@ -516,6 +562,10 @@ nav p:hover {
     font-size: 50px;
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
     position: absolute;
     top: 6100px;
     left: 560px;
@@ -528,6 +578,10 @@ nav p:hover {
 }
 
 .instaIcon {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
     position: absolute;
     top: 6155px;
     left: 485px;
@@ -558,6 +612,10 @@ nav p:hover {
     font-size: 50px;
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
     position: absolute;
     top: 6100px;
     right: 510px;
