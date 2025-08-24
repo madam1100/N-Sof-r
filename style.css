@@ -48,14 +48,26 @@ nav p:hover {
     left: 0;
 }
 
+.navC {
+    width: 650px;
+    height: 100px;
+    /* border: solid 2px blue; */
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: absolute;
+    top: 10px;
+    right: 2%;
+}
+
 .horLine1 {
     height: 10vh;
     width: 0;
     border: solid 1px #EEEBDD;
     border-radius: 50px;
+    margin-top: 30px;
     position: absolute;
-    top: 50px;
-    left: 260px;
+    left: 250px;
 }
 
 .nav1 {
@@ -64,11 +76,10 @@ nav p:hover {
     font-style: normal;
     font-size: 2vw;
     color: #EEEBDD;
-    position: absolute;
-    top: 0px;
-    right: 680px;
+    position: unset;
     transition: transform ease 100ms;
     will-change: transform;
+    margin-top: 20px;
 }
 
 .horLine2 {
@@ -76,9 +87,8 @@ nav p:hover {
     width: 0;
     border: solid 1px #EEEBDD;
     border-radius: 50px;
-    position: absolute;
-    top: 50px;
-    right: 600px;
+    margin-top: 30px;
+    position: unset;
 }
 
 .nav2 {
@@ -87,11 +97,10 @@ nav p:hover {
     font-style: normal;
     font-size: 2vw;
     color: #EEEBDD;
-    position: absolute;
-    top: 0px;
-    right: 450px;
+    position: unset;
     transition: transform ease 100ms;
     will-change: transform;
+    margin-top: 20px;
 }
 
 .horLine3 {
@@ -99,9 +108,8 @@ nav p:hover {
     width: 0;
     border: solid 1px #EEEBDD;
     border-radius: 50px;
-    position: absolute;
-    top: 50px;
-    right: 370px;
+    margin-top: 30px;
+    position: unset;
 }
 
 .nav3 {
@@ -110,11 +118,10 @@ nav p:hover {
     font-style: normal;
     font-size: 2vw;
     color: #EEEBDD;
-    position: absolute;
-    top: 0px;
-    right: 180px;
+    position: unset;
     transition: transform ease 100ms;
     will-change: transform;
+    margin-top: 20px;
 }
 
 .horLine4 {
@@ -122,9 +129,8 @@ nav p:hover {
     width: 0;
     border: solid 1px #EEEBDD;
     border-radius: 50px;
-    position: absolute;
-    top: 50px;
-    right: 100px;
+    margin-top: 30px;
+    position: unset;
 }
 
 .restD {
@@ -509,7 +515,7 @@ nav p:hover {
     animation-range: entry 0% cover 30%;
     position: absolute;
     top: 6000px;
-    left: 450px;
+    right: 60%;
 }
 
 .emailA:hover {
@@ -541,7 +547,7 @@ nav p:hover {
     animation-range: entry 0% cover 30%;
     position: absolute;
     top: 5960px;
-    right: 550px;
+    left: 60%;
 }
 
 .phoneNr:hover {
@@ -555,7 +561,7 @@ nav p:hover {
     border: solid 1px #EEEBDD;
     position: absolute;
     top: 6100px;
-    left: 550px;
+    right: 60%;
 }
 
 .instaCon {
@@ -572,7 +578,7 @@ nav p:hover {
     animation-range: entry 0% cover 20%;
     position: absolute;
     top: 6100px;
-    left: 560px;
+    right: 60%;
 }
 
 .instaCon:hover {
@@ -605,7 +611,7 @@ nav p:hover {
     border: solid 1px #EEEBDD;
     position: absolute;
     top: 6100px;
-    right: 570px;
+    left: 60%;
 }
 
 .addCon {
@@ -622,7 +628,7 @@ nav p:hover {
     animation-range: entry 0% cover 20%;
     position: absolute;
     top: 6100px;
-    right: 510px;
+    left: 60%;
 }
 
 .addCon:hover {
@@ -634,7 +640,7 @@ nav p:hover {
 @media (min-width: 424px) and (max-width: 431px){
 
     html {
-        height: 9000px;
+        height: 8850px;
     }
 
     body {
@@ -767,6 +773,9 @@ nav p:hover {
         width: 100%;
         height: 2000px;
         z-index: 100;
+        animation: none;
+        opacity: 1;
+        transform: none;
         position: absolute;
         top: 2500px;
         left: 50%;
@@ -928,8 +937,8 @@ nav p:hover {
         font-size: 40px;
         position: absolute;
         top: 8250px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .lineOC {
@@ -946,8 +955,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8350px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .line2 {
@@ -963,8 +972,8 @@ nav p:hover {
         font-size: 40px;
         position: absolute;
         top: 8480px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .line3 {
@@ -981,8 +990,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8630px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -1085,11 +1094,11 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .foodLine {
+    .foodCon > .foodLine {
         height: 0;
         width: 90%;
         position: absolute;
-        top: 290px;
+        top: 280px;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -1123,6 +1132,9 @@ nav p:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        animation: none;
+        opacity: 1;
+        transform: none;
         position: absolute;
         top: 3100px;
         left: 50%;
@@ -1186,6 +1198,11 @@ nav p:hover {
         top: 30px;
         left: 50%;
         transform: translateX(-50%); 
+    }
+
+    .foodCon2 > .foodLine {
+        position: absolute;
+        top: 280px;
     }
 
     .fc2T {
@@ -1270,8 +1287,8 @@ nav p:hover {
         font-size: 35px;
         position: absolute;
         top: 8000px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .lineOC {
@@ -1288,8 +1305,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8110px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .line2 {
@@ -1305,8 +1322,8 @@ nav p:hover {
         font-size: 40px;
         position: absolute;
         top: 8260px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .line3 {
@@ -1323,8 +1340,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8420px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -1466,6 +1483,9 @@ nav p:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        animation: none;
+        opacity: 1;
+        transform: none;
         position: absolute;
         top: 3100px;
         left: 50%;
@@ -1626,8 +1646,8 @@ nav p:hover {
         font-size: 35px;
         position: absolute;
         top: 8200px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .lineOC {
@@ -1644,8 +1664,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8310px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .line2 {
@@ -1661,8 +1681,8 @@ nav p:hover {
         font-size: 40px;
         position: absolute;
         top: 8450px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .line3 {
@@ -1679,8 +1699,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8600px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
@@ -1821,6 +1841,9 @@ nav p:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        animation: none;
+        opacity: 1;
+        transform: none;
         position: absolute;
         top: 3500px;
         left: 50%;
@@ -1981,8 +2004,8 @@ nav p:hover {
         font-size: 35px;
         position: absolute;
         top: 8500px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .lineOC {
@@ -1999,8 +2022,8 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8600px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .line2 {
@@ -2016,8 +2039,8 @@ nav p:hover {
         font-size: 40px;
         position: absolute;
         top: 8730px;
-        left: 50%;
-        transform: translateX(-50%);
+        right: 50%;
+        transform: translateX(50%);
     }
 
     .line3 {
@@ -2034,11 +2057,1049 @@ nav p:hover {
         white-space: nowrap;
         position: absolute;
         top: 8880px;
-        right: 50%;
-        transform: translateX(50%);
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .line4 {
         display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    html {
+        height: 9500px;
+    }
+
+    .logo {
+        font-size: 50px;
+        white-space: nowrap;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav p:hover {
+        display: none;
+    }
+
+    .bottomLine {
+        width: 99%;
+        border: solid 1px #EEEBDD;
+        border-radius: 50px;
+        position: absolute;
+        top: 120px;
+        left: 0;
+    }
+
+    .horLine1, .horLine2, .horLine3, .horLine4, .nav1, .nav2, .nav3 {
+        display: none;
+    }
+
+    .restD {
+        height: 830px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .restD img {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .dmidLine {
+        height: 0;
+        width: 90%;
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .restDT {
+        font-size: 40px;
+        white-space: nowrap;
+        position: absolute;
+        top: 450px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .restDP {
+        font-size: 23px;
+        width: 700px;
+        text-align: center;
+        position: absolute;
+        top: 580px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .middleD {
+        width: 600px;
+        position: absolute;
+        top: 1400px;
+    }
+
+    .foodCon {
+        height: 700px;
+        width: 100%;
+        position: absolute;
+        top: 1900px;
+    }
+
+    .foodCon img {
+        width: 400px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon > .foodLine {
+        height: 0;
+        width: 90%;
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodTitle {
+        font-size: 40px;
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+        top: 380px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodDesc {
+        font-size: 23px;
+        width: 700px;
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .photosCon {
+        width: 100%;
+        height: 1500px;
+        z-index: 100;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: none;
+        opacity: 1;
+        transform: none;
+        position: absolute;
+        top: 3550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img1 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+
+    .img4 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+
+    .img2 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+
+    .img3 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+    
+    .img5 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+
+    .img6 {
+        width: 400px;
+        height: auto;
+        position: unset;
+    }
+
+    .secondmidD {
+        width: 600px;
+        position: absolute;
+        top: 6000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon2 {
+        height: 790px;
+        width: 100%;
+        position: absolute;
+        top: 6400px;
+    }
+
+    .foodCon2 img {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .foodCon2 > .foodLine {
+        height: 0;
+        width: 90%;
+        position: absolute;
+        top: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .fc2T {
+        font-size: 40px;
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+        top: 460px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .fc2D {
+        font-size: 23px;
+        width: 700px;
+        text-align: center;
+        position: absolute;
+        top: 590px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .midPh {
+        width: 600px;
+        position: absolute;
+        top: 7350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon3 {
+        height: 730px;
+        position: absolute;
+        top: 7800px;
+    }
+
+    .foodCon3 img {
+        width: 400px;
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .foodCon3 > .foodLine {
+        height: 0;
+        width: 90%;
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodTitle2 {
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+
+    .foodDesc2 {
+        font-size: 23px;
+        width: 700px;
+        text-align: center;
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .lastLine {
+        width: 97%;
+        position: absolute;
+        top: 8750px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .emailA {
+        position: absolute;
+        top: 8850px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .lineOC {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 8960px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .phoneNr {
+        white-space: nowrap;
+        position: absolute;
+        top: 8950px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .line2 {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 9100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .instaCon {
+        position: absolute;
+        top: 9100px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .line3 {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 9250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .addCon {
+        white-space: nowrap;
+        position: absolute;
+        top: 9250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .line4 {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1350px) {
+    html {
+        height: 9250px;
+    }
+
+    .logo {
+        font-size: 40px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .horLine1 {
+        position: absolute;
+        left: 250px;
+    }
+
+    .navC {
+        width: 500px;
+        height: 100px;
+        /* border: solid 2px blue; */
+        display: flex;
+        flex-direction: row;
+        gap: 35px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .nav1 {
+        font-size: 30px;
+        position: unset;
+    }
+
+    .horLine2 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .nav2 {
+        font-size: 30px;
+        position: unset;
+    }
+
+    .horLine3 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .nav3 {
+        font-size: 30px;
+        position: unset;
+    }
+
+    .horLine4 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .restD {
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .restD img {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    .dmidLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .restDT {
+        font-size: 35px;
+        white-space: nowrap;
+        position: absolute;
+        top: 60px;
+        right: 5%;
+        left: auto;
+    }
+
+    .restDP {
+        font-size: 20px;
+        width: 400px;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        left: auto;
+        transform: translateY(-50%);
+    }
+
+    .middleD {
+        width: 700px;
+        position: absolute;
+        top: 1000px;
+    }
+
+    .foodCon {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        top: 1550px;
+    }
+
+    .foodCon img {
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        transform: translateY(-50%);
+    }
+
+    .foodCon > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .foodTitle {
+        font-size: 35px;
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+        top: 80px;
+        left: 5%;
+    }
+
+    .foodDesc {
+        font-size: 20px;
+        width: 400px;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    .photosCon {
+        width: 100%;
+        height: 1500px;
+        z-index: 100;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: none;
+        opacity: 1;
+        transform: none;
+        position: absolute;
+        top: 3350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img1 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+
+    .img4 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+
+    .img2 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+
+    .img3 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+    
+    .img5 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+
+    .img6 {
+        width: 450px;
+        height: auto;
+        position: unset;
+    }
+
+    .secondmidD {
+        width: 600px;
+        position: absolute;
+        top: 6000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon2 {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        top: 6500px;
+    }
+
+    .foodCon2 img {
+        width: 400px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%); 
+    }
+
+    .foodCon2 > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .fc2T {
+        font-size: 35px;
+        white-space: nowrap;
+        position: absolute;
+        top: 70px;
+        right: 5%;
+        left: auto;
+    }
+
+    .fc2D {
+        font-size: 20px;
+        width: 400px;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        left: auto;
+        transform: translateY(-50%);
+    }
+
+    .midPh {
+        width: 700px;
+        position: absolute;
+        top: 7250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon3 {
+        height: 500px;
+        position: absolute;
+        top: 7800px;
+    }
+
+    .foodCon3 img {
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        right: 5%;
+        left: auto;
+        transform: translateY(-50%); 
+    }
+
+    .foodCon3 > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    .foodTitle2 {
+        font-size: 35px;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 5%;
+    }
+
+    .foodDesc2 {
+        font-size: 20px;
+        width: 400px;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+
+    .lastLine {
+        width: 97%;
+        position: absolute;
+        top: 8550px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .emailA {
+        position: absolute;
+        top: 8650px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .lineOC {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 8760px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .phoneNr {
+        white-space: nowrap;
+        position: absolute;
+        top: 8750px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .line2 {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 8900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .instaCon {
+        position: absolute;
+        top: 8900px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .line3 {
+        height: 0;
+        width: 50%;
+        position: absolute;
+        top: 9050px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .addCon {
+        white-space: nowrap;
+        position: absolute;
+        top: 9050px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .line4 {
+        display: none;
+    }
+}
+
+@media (min-width: 1351px) and (max-width: 1700px) {
+    html {
+        height: 6100px;
+    }
+
+    .logo {
+        font-size: 40px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .horLine1 {
+        position: absolute;
+        left: 250px;
+    }
+
+    .navC {
+        width: 500px;
+        height: 100px;
+        /* border: solid 2px blue; */
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        position: absolute;
+        top: 10px;
+        right: 150px;
+    }
+
+    .nav1 {
+        font-size: 35px;
+        margin: 20px;
+        position: unset;
+    }
+
+    .horLine2 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .nav2 {
+        font-size: 35px;
+        margin: 20px;
+        position: unset;
+    }
+
+    .horLine3 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .nav3 {
+        font-size: 35px;
+        margin: 20px;
+        position: unset;
+    }
+
+    .horLine4 {
+        margin-top: 30px;
+        position: unset;
+    }
+
+    .restD {
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .restD img {
+        width: 450px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%);
+    }
+
+    .dmidLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .restDT {
+        white-space: nowrap;
+        position: absolute;
+        top: 60px;
+        right: 7%;
+        left: auto;
+    }
+
+    .restDP {
+        width: 550px;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        left: auto;
+        transform: translateY(-50%);
+    }
+
+    .middleD {
+        width: 700px;
+        position: absolute;
+        top: 1000px;
+    }
+
+    .foodCon {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        top: 1550px;
+    }
+
+    .foodCon img {
+        width: 450px;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-50%);
+    }
+
+    .foodCon > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .foodTitle {
+        text-align: center;
+        white-space: nowrap;
+        position: absolute;
+        top: 60px;
+        left: 7%;
+    }
+
+    .foodDesc {
+        width: 550px;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        transform: translateY(-50%);
+    }
+
+    .photosCon {
+        position: absolute;
+        top: 2350px;
+    }
+
+    .secondmidD {
+        width: 600px;
+        position: absolute;
+        top: 3100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon2 {
+        height: 500px;
+        width: 100%;
+        position: absolute;
+        top: 3550px;
+    }
+
+    .foodCon2 img {
+        width: 450px;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        transform: translateY(-50%); 
+    }
+
+    .foodCon2 > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .fc2T {
+        white-space: nowrap;
+        position: absolute;
+        top: 70px;
+        right: 7%;
+        left: auto;
+    }
+
+    .fc2D {
+        width: 550px;
+        text-align: right;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        left: auto;
+        transform: translateY(-50%);
+    }
+
+    .midPh {
+        width: 700px;
+        position: absolute;
+        top: 4300px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .foodCon3 {
+        height: 500px;
+        position: absolute;
+        top: 4850px;
+    }
+
+    .foodCon3 img {
+        width: 450px;
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        left: auto;
+        transform: translateY(-50%); 
+    }
+
+    .foodCon3 > .foodLine {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%);
+    }
+
+    .foodTitle2 {
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 7%;
+    }
+
+    .foodDesc2 {
+        width: 550px;
+        text-align: left;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        transform: translateY(-50%);
+    }
+
+    .lastLine {
+        position: absolute;
+        top: 5600px;
+    }
+
+    .emailA {
+        position: absolute;
+        top: 5730px;
+        right: 60%;
+        left: auto;
+    }
+
+    .lineOC {
+        position: absolute;
+        top: 5700px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .phoneNr {
+        position: absolute;
+        top: 5680px;
+        left: 60%;
+        right: auto;
+    }
+
+    .line2 {
+        position: absolute;
+        top: 5850px;
+        right: 60%;
+        left: auto;
+    }
+
+    .instaCon {
+        position: absolute;
+        top: 5880px;
+        right: 60%;
+        left: auto;
+    }
+
+    .line3 {
+        position: absolute;
+        top: 5900px;
+    }
+
+    .line4 {
+        position: absolute;
+        top: 5850px;
+        left: 60%;
+        right: auto;
+    }
+
+    .addCon {
+        position: absolute;
+        top: 5880px;
+        left: 60%;
+        right: auto;
     }
 }

@@ -9,3 +9,21 @@ function raf(time) {
 };
 
 requestAnimationFrame(raf);
+
+function myScript() {
+    console.log('Script running for larger screens')
+}
+
+const mediaQuery = window.matchMedia('(max-width: 1351px)');
+
+if (mediaQuery.matches) {
+    myScript();
+}
+
+mediaQuery.addEventListener('change', (e) => {
+    if (e.matches) {
+        myScript();
+    } else {
+        console.log('Removed for small screens')
+    }
+})
