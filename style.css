@@ -505,6 +505,7 @@ nav p:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
+    color: #ffffff;
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
     text-decoration: none;
