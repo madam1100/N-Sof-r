@@ -1335,6 +1335,10 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .line4 {
+        display: none;
+    }
+
     .addCon {
         font-size: 40px;
         white-space: nowrap;
@@ -1692,6 +1696,10 @@ nav p:hover {
         top: 8580px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .line4 {
+        display: none;
     }
 
     .addCon {
@@ -2052,6 +2060,10 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .line4 {
+        display: none;
+    }
+
     .addCon {
         font-size: 40px;
         white-space: nowrap;
@@ -2405,6 +2417,10 @@ nav p:hover {
         top: 9250px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .line4 {
+        display: none;
     }
 
     .addCon {
