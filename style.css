@@ -505,7 +505,6 @@ nav p:hover {
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    color: #EEEBDD;
     transition: transform ease-in-out 100ms;
     will-change: scale, color;
     text-decoration: none;
@@ -933,12 +932,22 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+        transform: none;
+    }
+
     .emailA {
         font-size: 40px;
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8250px;
         right: 50%;
         transform: translateX(50%);
+    }
+
+    .emailA:hover {
+        transform: none;
     }
 
     .lineOC {
@@ -1283,8 +1292,14 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+        transform: none;
+    }
+
     .emailA {
         font-size: 35px;
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8000px;
         right: 50%;
@@ -1646,8 +1661,14 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+        transform: none;
+    }
+
     .emailA {
         font-size: 35px;
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8200px;
         right: 50%;
@@ -2008,8 +2029,14 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+        transform: none;
+    }
+
     .emailA {
         font-size: 35px;
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8500px;
         right: 50%;
@@ -2370,7 +2397,13 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+        transform: none;
+    }
+
     .emailA {
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8850px;
         right: 50%;
@@ -2749,6 +2782,8 @@ nav p:hover {
     }
 
     .emailA {
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 8650px;
         right: 50%;
@@ -3066,6 +3101,8 @@ nav p:hover {
     }
 
     .emailA {
+        color: #EEEBDD;
+        text-decoration: none;
         position: absolute;
         top: 5730px;
         right: 60%;
