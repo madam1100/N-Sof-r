@@ -933,7 +933,19 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+    .emailA:hover {
+        transform: none;
+    }
+
+    .phoneNr:hover {
+        transform: none;
+    }
+
+    .instaCon:hover {
+        transform: none;
+    }
+
+    .addCon:hover {
         transform: none;
     }
 
@@ -1297,7 +1309,19 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+    .emailA:hover {
+        transform: none;
+    }
+
+    .phoneNr:hover {
+        transform: none;
+    }
+
+    .instaCon:hover {
+        transform: none;
+    }
+
+    .addCon:hover {
         transform: none;
     }
 
@@ -1666,7 +1690,19 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+    .emailA:hover {
+        transform: none;
+    }
+
+    .phoneNr:hover {
+        transform: none;
+    }
+
+    .instaCon:hover {
+        transform: none;
+    }
+
+    .addCon:hover {
         transform: none;
     }
 
@@ -2034,7 +2070,19 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+    .emailA:hover {
+        transform: none;
+    }
+
+    .phoneNr:hover {
+        transform: none;
+    }
+
+    .instaCon:hover {
+        transform: none;
+    }
+
+    .addCon:hover {
         transform: none;
     }
 
@@ -2402,7 +2450,19 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
-    .emailA:hover, .phoneNr:hover, .instaCon:hover, .addCon:hover {
+    .emailA:hover {
+        transform: none;
+    }
+
+    .phoneNr:hover {
+        transform: none;
+    }
+
+    .instaCon:hover {
+        transform: none;
+    }
+
+    .addCon:hover {
         transform: none;
     }
 
