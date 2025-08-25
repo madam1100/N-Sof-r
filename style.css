@@ -934,19 +934,19 @@ nav p:hover {
     }
 
     .emailA:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .phoneNr:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .instaCon:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .addCon:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .emailA {
@@ -957,10 +957,6 @@ nav p:hover {
         top: 8250px;
         right: 50%;
         transform: translateX(50%);
-    }
-
-    .emailA:hover {
-        transform: none;
     }
 
     .lineOC {
@@ -1310,19 +1306,19 @@ nav p:hover {
     }
 
     .emailA:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .phoneNr:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .instaCon:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .addCon:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .emailA {
@@ -1691,19 +1687,19 @@ nav p:hover {
     }
 
     .emailA:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .phoneNr:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .instaCon:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .addCon:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .emailA {
@@ -2071,19 +2067,19 @@ nav p:hover {
     }
 
     .emailA:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .phoneNr:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .instaCon:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .addCon:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .emailA {
@@ -2451,19 +2447,19 @@ nav p:hover {
     }
 
     .emailA:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .phoneNr:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .instaCon:hover {
-        transform: none;
+        transform: translateX(50%);
     }
 
     .addCon:hover {
-        transform: none;
+        transform: translateX(-50%);
     }
 
     .emailA {
