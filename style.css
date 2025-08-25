@@ -995,6 +995,10 @@ nav p:hover {
         transform: translateX(-50%);
     }
 
+    .line4 {
+        display: none;
+    }
+
     .addCon {
         font-size: 40px;
         white-space: nowrap;
@@ -2124,7 +2128,7 @@ nav p:hover {
     }
 
     .bottomLine {
-        width: 99%;
+        width: 99.9%;
         border: solid 1px #EEEBDD;
         border-radius: 50px;
         position: absolute;
